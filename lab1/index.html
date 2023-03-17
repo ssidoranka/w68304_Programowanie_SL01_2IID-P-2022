@@ -3,6 +3,12 @@
 <head>
  <meta charset="utf-8" />
  <title>My Website</title>
+ <style>
+    body{
+        margin: 0;
+        padding: 0;
+    }
+ </style>
 </head>
 <header>
     <h1>Hello World!</h1>
@@ -27,33 +33,35 @@
  <h3>My surname is Sidoranka</h3>
  <h4>My hobby is volleyball</h4>
  <h5>My <b>number</b> of album is 68304</h5>
- <h6>I like <i>drink</i> Coca-cola</h6>
- <ul>
-    <li>vegetables</li>
-    <li>meat</li>
-    <li>fruits</li>
-    <li>fish</li>
- </ul>
- <ol>
-    <li>Pasha</li>
-    <li>Vova</li>
-    <li>Simon</li>
- </ol>
- <a href="https://pl-pl.facebook.com/">Lodovanie na Facebook</a>
- <table border="3">
-    <tr>
-        <td> 2015-2022</td>
-        <td>Gimnazium na Białorusi</td>
-    </tr>
-    <tr>
-        <td>2022 - obecnie</td>
-        <td>WSIZ</td>
-    </tr>
-    <tr>
-        <td>2011-2015</td>
-        <td>Szkoła podstawowa</td>
-    </tr>
- </table>
+ <div class="lewo">
+        <h6>I like <i>drink</i> Coca-cola</h6>
+    <ul>
+        <li>vegetables</li>
+        <li>meat</li>
+        <li>fruits</li>
+        <li>fish</li>
+    </ul>
+    <ol>
+        <li>Pasha</li>
+        <li>Vova</li>
+        <li>Simon</li>
+    </ol>
+    <a href="https://pl-pl.facebook.com/">Lodovanie na Facebook</a>
+    <table border="3">
+        <tr>
+            <td> 2015-2022</td>
+            <td>Gimnazium na Białorusi</td>
+        </tr>
+        <tr>
+            <td>2022 - obecnie</td>
+            <td>WSIZ</td>
+        </tr>
+        <tr>
+            <td>2011-2015</td>
+            <td>Szkoła podstawowa</td>
+        </tr>
+    </table>
+</div>
  <table border="3" width = '100px' height = '100px'>
     <tr>
         <td></td>
@@ -83,7 +91,28 @@
  </table>
  <img src="pobrane.jfif">
 
- <div><a href="ulub ksąż.html">Moje ulubione książkie</a></div>
- <div><a href="ulubserial.html">Moje ulubione książkie</a></div>
+ <div><a href="lab1.ulub ksąż.html">Moje ulubione książkie</a></div>
+ <div><a href="lab.ulubserial.html">Moje ulubione książkie</a></div>
+
+ <h2>Your news form</h2>
+ <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="fname">Second name</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="fname">mail:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label>Do you want to get news daily?</label>
+  <input type="checkbox">
+  <label>Do you want to get 10% discount?</label>
+  <input type="radio" >
+  <p>Color</p>
+  <select >
+    <option>Red</option>
+    <option>Yellow</option>
+    <option>Blue</option>
+  </select>
+  <br><br>
+  <input type="button"><br>
+  <input type="date">
 </body>
 </html>
