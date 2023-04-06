@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+ <meta charset="utf-8" />
+ <title>My Website</title>
+ <style>
+    ::before {
+     box-sizing: border-box; 
+} 
+ 
+body { 
+  margin: 0; 
+  padding: 0; 
+  font-family: "Inter", sans-serif; 
+  background-color: yellow;
+} 
+ 
+h1 { 
+  font-size: 50px; 
+} 
+ 
+h4 { 
+  font-size: 30px; 
+} 
+ 
+img { 
+  height: 100%; 
+  display: block; 
+  padding: 50px; 
+} 
+ 
+.link { 
+  text-decoration: none; 
+} 
+ 
+/* Header */ 
+ 
+header { 
+  position: sticky; 
+  top: 0; 
+  left: 0; 
+  z-index: 100; 
+  display: flex; 
+  justify-content: space-around; 
+  width: 100%; 
+  padding: 20px; 
+  background-color: rgb(255, 0, 212); 
+  box-shadow: 0 0 10px 2px #ff0000; 
+} 
+ 
+.header-title { 
+  color: #db43b7; 
+  font-weight: 600; 
+} 
+ 
+.header-link { 
+  margin-left: 20px; 
+  color: #ea00ff; 
+} 
+ 
+.current { 
+  color: #31d0aa; 
+} 
+ 
+.header-link:hover { 
+  color: #31d0aa; 
+} 
+ 
+.navigation { 
+  display: flex; 
+} 
+ 
+/* Main */ 
+ 
+.about-me { 
+  display: flex; 
+  align-items: center; 
+  margin: 0 120px; 
+} 
+ 
+.accent { 
+  color: #db43b7; 
+  font-weight: 600; 
+} 
+ 
+.main-text { 
+  color: #434455; 
+} 
+ 
+.text-accent { 
+  color: #31d0aa; 
+} 
+ 
+.main-img { 
+  width: 500px; 
+} 
+.tb1{
+    float: right;
+    margin-top: 10px;
+}
+.article-element{
+    width: 60%;
+}
+
+ </style>
+</head>
+<header>
+    <h1>Hello World!</h1>
+</header>
+<nav>
+    <ul>
+        <li>Informacja</li>
+        <li> Link</li>
+        <li>Zdjęcie</li>
+    </ul>
+</nav>
+<body>
+<section>
+    <h3>Filmy detektywistyczne</h3>
+    <ul>
+        <li>Sherlock Holmes (2009)</li>
+        <li>Seven (1995)</li>
+        <li>Clue (1985)</li>
+    </ul>
+</section>
+ <h2>My name is Simon</h2>
+ <h3>My surname is Sidoranka</h3>
+ <h4>My hobby is volleyball</h4>
+ <h5>My <b>number</b> of album is 68304</h5>
+ <div class="lewo">
+        <h6>I like <i>drink</i> Coca-cola</h6>
+    <ul>
+        <li>vegetables</li>
+        <li>meat</li>
+        <li>fruits</li>
+        <li>fish</li>
+    </ul>
+    <ol>
+        <li>Pasha</li>
+        <li>Vova</li>
+        <li>Simon</li>
+    </ol>
+    <a href="https://pl-pl.facebook.com/">Lodovanie na Facebook</a>
+    <table border="3" class="tb1">
+        <tr>
+            <td> 2015-2022</td>
+            <td>Gimnazium na Białorusi</td>
+        </tr>
+        <tr>
+            <td>2022 - obecnie</td>
+            <td>WSIZ</td>
+        </tr>
+        <tr>
+            <td>2011-2015</td>
+            <td>Szkoła podstawowa</td>
+        </tr>
+    </table>
+</div>
+ <table border="3" width = '100px' height = '100px'>
+    <tr>
+        <td></td>
+        <td rowspan="2"></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td rowspan="2" colspan="2"></td>
+        
+    </tr>
+    <tr>
+        <td></td>
+        
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+
+ </table>
+ <img src="pobrane.jfif">
+
+ <div><a href="lab1.ulub ksąż.html">Moje ulubione książkie</a></div>
+ <div><a href="lab.ulubserial.html">Moje ulubione książkie</a></div>
+
+ <h2>Your news form</h2>
+ <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="fname">Second name</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="fname">mail:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label>Do you want to get news daily?</label>
+  <input type="checkbox">
+  <label>Do you want to get 10% discount?</label>
+  <input type="radio" >
+  <p>Color</p>
+  <select >
+    <option>Red</option>
+    <option>Yellow</option>
+    <option>Blue</option>
+  </select>
+  <br><br>
+  <input type="button"><br>
+  <input type="date">
+  <article class=" article-element">
+    <h2 width = "30%">Google Chrome</h2>
+    <p>Google Chrome is a web browser developed by Google, released in 2008. </p>
+    </article>
+</body>
+</html>
